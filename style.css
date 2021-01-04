@@ -1,0 +1,123 @@
+body{
+    font-family:arial;
+    font-size:18px;
+    font-weight:400;
+    margin:0;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.header-area {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.header-section{
+    padding:100px 0;
+    overflow:hidden;
+}
+.header-highlight{
+    color:orange;
+}
+.header-left{
+    width:45%;
+    float:left;
+}
+.header-right{
+    width:45%;
+    float:right;
+   overflow: hidden;
+}
+.header-right img{
+    width:100%;
+
+}
+h1{
+    margin:0px;
+}
+.header-left h3{
+    margin: 20px 0px 39px 0px;
+    font-size: 19px;
+    color: #000000bf;
+    font-weight: 600;
+}
+.header-left  p{
+    font-size: 17px;
+    color: #000000ad;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top:0;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(to left top, #fbff00, red);
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    font-size:15px;
+}
+
+a:hover {
+    background-image: linear-gradient(to left top, #ff0000, rgb(187, 255, 0));
+}
+
+.header-left a i{
+    margin-left:5px;
+    font-size: 15px;;
+}
+
+p{
+    margin:0px;
+}
+.header-right img{
+    width:100%;
+    display:block
+}
+
+
+.heading1{
+    font-size:50px;
+}
+.heading-2{
+    font-size:50px;
+}
+
+.middle-area{
+    overflow:hidden;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main-middle-area{
+    overflow: hidden;
+}
+.main-middle-area .header-left img{
+    width:100%;
+}
+.middle-h1{
+    font-size: 47px;
+    color: #000000a8;
+}
+.middle-h3{
+    font-size: 20px;
+    color: #000000b8;
+}
+.middle-p{
+    color: #000000e0;
+    font-size: 18px;
+    line-height: 28px;
+} 
+
+
+footer p{
+    text-align: center;
+    color: #000000d1;
+    font-size: 16px;
+    margin-top: 200px;
+
+}
+
+
